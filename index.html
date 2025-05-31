@@ -3,204 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Gerald Nkansah | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1 style="text-align: center">Gerald Nkansah</h1>
-    <div class="container">
-      <div class="column">
-        <img
-          src="Linkedinnew.jpg"
-          alt="Gerald Nkansah"
-          class="profile-image"
-        />
-        <div class="horizontal-line"></div>
-        <div class="flex-table">
-          <div class="flex-row flex-header">
-            <div class="flex-cell" style="font-weight: bold">Skills</div>
-            <div class="flex-cell" style="font-weight: bold">Proficency</div>
-          </div>
-          <div class="flex-row">
-            <div class="flex-cell">Programming</div>
-            <div class="flex-cell">Average</div>
-          </div>
-          <div class="flex-row">
-            <div class="flex-cell">Tools & Platforms</div>
-            <div class="flex-cell proficiency-level">Expert</div>
-          </div>
-          <div class="flex-row">
-            <div class="flex-cell">Communication Tools</div>
-            <div class="flex-cell proficiency-level">Expert</div>
-          </div>
-        </div>
+    <header class="hero" id="home">
+      <img src="Linkedinnew.jpg" alt="Gerald Nkansah" class="profile-pic" />
+      <h1 data-aos="fade-down">Gerald Nkansah</h1>
+      <p data-aos="fade-up">Aspiring Control Systems & Software Engineer</p>
+    </header>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+      </ul>
+    </nav>
+
+    <section class="section" id="contact" data-aos="fade-right">
+      <h2>Contact Info</h2>
+      <p>📞 804-300-4036</p>
+      <p>📧 geraldnkansah@gmail.com</p>
+      <p>📍 Mechanicsville, VA</p>
+      <p>🔗 <a href="https://www.linkedin.com/in/gerald-nkansah-11272825a/" target="_blank">LinkedIn</a></p>
+    </section>
+
+    <section class="section" id="skills" data-aos="fade-left">
+      <h2>Technical Skills & Competencies</h2>
+      <ul class="two-col">
+        <li>Control Systems Engineering</li>
+        <li>MATLAB & Simulink</li>
+        <li>Transfer Function Modeling</li>
+        <li>PID Controller Design</li>
+        <li>State-Space Analysis</li>
+        <li>HTML, CSS, JavaScript, Node.js</li>
+        <li>Python, Java, C/C++</li>
+        <li>MongoDB, MySQL, Redis</li>
+        <li>Docker, GitHub Actions, EC2</li>
+        <li>FPGA, VHDL, PCB Design</li>
+        <li>Microsoft Office, Google Suite</li>
+        <li>Slack, Teams, Zoom, Discord</li>
+      </ul>
+    </section>
+
+    <section class="section" id="education" data-aos="fade-up">
+      <h2>Education</h2>
+      <p><strong>George Mason University</strong> – B.S. in Computer Engineering, May 2024</p>
+      <p><strong>Institute of Data (VCU Accredited)</strong> – Certificate in Software Engineering, Feb 2025</p>
+    </section>
+
+    <section class="section" id="projects" data-aos="zoom-in">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Function Generator – Op Amp Project</h3>
+        <p>Designed a function generator using op-amps to produce sine, square, and triangle waves.</p>
       </div>
-
-      <div class="column content">
-        <h2>Contact Info</h2>
-        <p>
-          804-300-4036 | geraldnkansah@gmail.com | Mechanicsville, VA |
-          <a
-            href="https://www.linkedin.com/in/gerald-nkansah-11272825a/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
-
-        <h2>Technical Skills/Competencies</h2>
-        <ul>
-          <li>FPGA Experience</li>
-          <li>HTML</li>
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>Java/JavaScript</li>
-          <li>CSS</li>
-          <li>C and C++</li>
-          <li>Github</li>
-          <li>Matlab</li>
-          <li>VHDL</li>
-          <li>Microsoft Skills, Excel, Word, PowerPoint, Outlook</li>
-          <li>Google Suite: Docs, Gmail, Slides, Sheets</li>
-          <li>Communication tools: Slack, Teams, Zoom, Discord</li>
-          <li>Front End Development</li>
-          <li>Figma</li>
-          <li>Bootstrap</li>
-          <li>Database Design</li>
-          <li>MongoDB</li>
-          <li>MySQL</li>
-          <li>Redis</li>
-          <li>Software Deployment</li>
-          <li>Docker</li>
-          <li>CI/CD with Github Actions</li>
-          <li>EC2</li>
-          <li>Beanstalk</li>
-          <li>Smart Grids</li>
-          <li>PCB</li>
-          <li>PCB Design</li>
-          <li>KiCad</li>
-          <li>Control Systems Engineering</li>
-          <li>Transfer Function Modeling</li>
-          <li>Feedback & PID Controller Design</li>
-          <li>MATLAB & Simulink for Control Systems</li>
-          <li>Bode Plot / Root Locus Analysis</li>
-          <li>State-Space Modeling</li>
-          <li>Step Response / Stability Analysis</li>
-
-        </ul>
-
-        <h2>Education</h2>
-        <p>
-          George Mason University | Bachelor's of Science in Computer
-          Engineering | May 2024
-        </p>
-        <p>
-          Institute of Data - Virginia Commonwealth U. accredited | Certificate
-          in Software Engineering | February 2025
-        </p>
-        
-
-        <h3>Relevant Coursework</h3>
-        <ul>
-          <li>Computer Networking</li>
-          <li>Computer Architecture</li>
-          <li>Embedded Systems</li>
-          <li>Continuous and Discrete Signals</li>
-          <li>Object Oriented Programming</li>
-          <li>Data Structures</li>
-          <li>Operating Systems</li>
-          <li>Computer Design</li>
-          <li>Microcontrollers</li>
-          <li>Digital System Design</li>
-          <li>Python/Java/C++/Hardware Programming</li>
-          <li>Software Development Principles</li>
-          <li>API Development</li>
-          <li>JavaScript Programming</li>
-          <li>Front End Development</li>
-          <li>Back End and Full Stack Development</li>
-          <li>Interactive Web Design</li>
-          <li>Web Design React II</li>
-        </ul>
-
-        <h2>Projects</h2>
-        <p>
-          <strong
-            >George Mason University | Function Generator — Op Amp
-            Project</strong
-          >
-        </p>
-        <ul>
-          <li>
-            Created a Function Generator on a circuit using op-amps in this
-            project.
-          </li>
-          <li>
-            This Function Generator can create Sine Waves, Square Waves, and
-            Triangle Waves.
-          </li>
-        </ul>
-        <u1>
-          <p>
-            <strong>George Mason University | Lights Out Puzzle</strong>
-          </p>
-          <li>Created a lights out puzzle on an FPGA Board that can work for two variants.</li>
-          <li>Here is one variant.<a href="https://www.logicgamesonline.com/lightsout/">Variant 1</a></li>
-          <li>Here is another. <a href="https://www.logicgamesonline.com/lightsout/">Variant 2</a></li>
-        </u1>
-        <p>
-          <strong
-            >George Mason University | Self-Aware Lane Tracking and Tracing for
-            Autonomous Systems – Senior Design Project</strong
-          >
-        </p>
-        <img src="ProjectPic.png" alt="Senior-Design" class="Project-Photo">
-        <ul>
-          <li>
-            This project aims to create a lightweight self-aware AI system for
-            lane assistance on low-end autonomous systems, utilizing prototypes
-            on platforms like Raspberry Pi to minimize resource consumption.
-          </li>
-        </ul>
-        <strong><p>Institute of Data - Virginia Commonwealth U. accredited | Certificate in Software Engineering - Dashboard Application Project</strong></p>
-        <ul>
-          <li>Developed a non responsive basic dashboard using HTML and CSS showcasing advanced layout techniques
-            such as CSS Grid. Includes a sidebar menu, cards, trending section and a user profile display. It focuses on clean design and usability.
-            <a href="https://geraldankansah.github.io/Project1/">View Project</a>
-          </li>
-
-        </ul>
-
-        <h2>Work Experience</h2>
-        <p>
-          <strong>Front End Cashier | Walmart | June 2020 to Present</strong>
-        </p>
-        <ul>
-          <li>
-            Greet customers with a friendly welcome and positive attitude.
-          </li>
-          <li>Ensure all transactions are processed quickly and accurately.</li>
-          <li>Address and resolve customer problems and complaints.</li>
-          <li>Stock items as needed.</li>
-          <li>Gather carts from the parking lot.</li>
-        </ul>
-        <!--  
-        <p>
-          <strong>Crew Member | Wendy's | February 2019 to August 2019</strong>
-        </p>
-        <ul>
-          <li>Interacted with customers in a positive manner.</li>
-          <li>
-            Worked closely with other team members to ensure a smooth and
-            efficient customer service experience.
-          </li>
-        </ul>
-    -->
-        <h2>Awards/Service</h2>
-        <p>
-          YMCA Volunteer of the Month | Dean’s List: Spring 2021, Spring 2024
-        </p>
+      <div class="project">
+        <h3>Lights Out Puzzle on FPGA</h3>
+        <p>Created FPGA-based puzzles with two playable logic variants. <a href="https://www.logicgamesonline.com/lightsout/">Play Demo</a></p>
       </div>
-    </div>
+      <div class="project">
+        <h3>Lane Tracking for Autonomous Systems – Senior Design</h3>
+        <img src="ProjectPic.png" alt="Lane Tracking" class="project-img" />
+        <p>Built a lightweight AI-based lane assistant on Raspberry Pi for embedded platforms.</p>
+      </div>
+      <div class="project">
+        <h3>Dashboard Application – VCU Institute of Data</h3>
+        <p>Developed a responsive front-end dashboard with sidebar, cards, and profile section. <a href="https://geraldankansah.github.io/Project1/">View Project</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="experience" data-aos="fade-right">
+      <h2>Work Experience</h2>
+      <p><strong>Walmart – Front End Cashier (2020–Present)</strong></p>
+      <ul>
+        <li>Provided friendly and efficient customer service at checkout.</li>
+        <li>Managed transactions accurately and resolved customer issues.</li>
+        <li>Handled restocking and cart retrieval tasks during downtime.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="awards" data-aos="fade-left">
+      <h2>Awards & Service</h2>
+      <ul>
+        <li>YMCA Volunteer of the Month</li>
+        <li>Dean’s List – Spring 2021, Spring 2024</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Gerald Nkansah</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
   </body>
 </html>
